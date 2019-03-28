@@ -1,0 +1,696 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <!-- ========== PAGE TITLE ========== -->
+        <title>Разработка | Создайние сайтов WEB-ZONE</title>
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/icon">
+        <!-- ========== META TAGS ========== -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Веб-Студия WEB-ZONE- Создание | Разработка сайтов в Украине, Харькове ★ Сайты которые работают за вас ☎ (063) 581-47-85" />
+        <meta name="keywords" content="веб-студия, веб-студия Харьков, разработка сайтов, разработка сайтов Харьков, создание сайтов, создание сайтов Харьков, продвижение сайтов, SEO, SEO Харьков, продвижение сайтов Харьков, разработка и продвижение, создание и продвижение, сайты, оживление сайтов" />
+        <meta name="author" content="WEB-ZONE" />
+        <meta name="copyright" content="WEB-ZONE" />
+        <!-- Open Graph Protocol metadata -->
+        <meta property="og:title" content="Разработка | Создайние сайтов WEB-ZONE" />
+        <meta property="og:site_name" content="Компания WEB-ZONE" />
+        <meta property="og:url" content="https://web-zone.kh.ua/" />
+        <meta property="og:description" content="Веб-Студия WEB-ZONE- Создание | Разработка сайтов в Украине, Харькове ★ Сайты которые работают за вас ☎ (063) 581-47-85" />
+        <!-- ========== CSS ========== -->
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/site.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet"> 
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="screen">
+        <link rel="stylesheet" type="text/css" href="assets/css/animate.css" media="screen">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animate-header.css">
+        <link rel="stylesheet" href="css/forma.css">
+        <!-- ========== JQUERY PLUGIN ========== -->
+
+        <script type="text/javascript" src="js/ajax-jquery.min.js"></script>
+
+    </head><!-- end head -->
+    <body>
+        <div class="se-pre-con"></div><!-- ========== PRELOADER ========== -->
+        <script type="text/javascript">
+        $(document).ready(function() {
+        "use strict";
+        $(".se-pre-con").fadeOut("slow");
+        });
+        </script>
+        <!-- ========== MENUBAR ========== -->
+        <ul class="burger-open" style="display: none;">
+            <li>
+                <a href="#home">Главная</a>
+            </li>
+            <li>
+                <a href="#about">О нас</a>
+            </li>
+            <li>
+                <a href="#work">Портфолио</a>
+            </li>
+            <li>
+                <a href="#contact">Контакты</a>
+            </li>
+        </ul><!-- end nav -->
+        <div class="menubar">
+            <div class="menubar-content">
+                <nav class="navbar navbar-default navbar-default-home navbar-fixed-top">
+                    <nav class="navig">
+                      <input type="checkbox" id="menu-toggle"/>
+                      <label id="trig" for="menu-toggle"></label>
+                      <label id="burger" for="menu-toggle"></label>
+                    </nav>
+                    <div class="container">
+                        <div class="row flex">
+                            <div class="col-md-2 col-sm-2 col-xs-2 full_logo">
+                                <div class="site-title home-page">
+                                    <h3><img alt="" src="img/logo.png" />WEB-ZONE</h3>
+                                </div><!-- end site-title -->
+                            </div><!-- end col-md-4 -->
+                            <ul class="menubar-grid">
+                                    <li>
+                                        <a href="#home">Главная</a>
+                                    </li>
+                                    <li>
+                                        <a href="#about">О нас</a>
+                                    </li>
+                                    <li>
+                                        <a href="#work">Портфолио</a>
+                                    </li>
+                                    <li>
+                                        <a href="#contact">Контакты</a>
+                                    </li>
+                                </ul><!-- end nav -->
+                           <a class="about-contact1" onclick="form_add()">Хочу сайт</a>
+                        </div><!-- end row -->
+                    </div><!-- end container-fluid -->
+                </nav><!-- navbar -->
+            </div><!-- end menubar-content -->
+        </div><!-- end menubar -->
+        <div class="cd-panel from-right" id="intro-dm">
+            <header class="cd-panel-header">
+                <span class="cd-panel-close" onclick="forma_remove()"></span>
+                <script type="text/javascript">
+                    function form_add() {
+                        $(".cd-panel").addClass("is-visible");
+                    };
+                    function forma_remove() {
+                        $(".cd-panel").removeClass("is-visible");
+                    };
+                </script>
+            </header>
+            <div class="cd-panel-container">
+                <div class="cd-panel-content">
+                    <form id="msform" class="msform form-bitrix" method="post" action="contact-form.php">
+                       <div class="title-general">Сформируйте заявку и отправьте нам</div>
+                       <div class="msgs"></div>
+                       <div class="f-left">
+                          <div class="wrap-content">
+                              <div class="h3 line">Контакты:</div>
+                                 <div>
+                                        <div class="row">
+                                          <input type="tel" name="tel" id="companyname" pattern="^[+0-9]+$" required="">
+                                          <label for="companyname">Ваш номер телефона</label>
+                                        </div>
+                                        <div class="row">
+                                          <input type="email" name="email" id="email" required="">
+                                          <label for="email">Ваш e-mail</label>
+                                        </div>
+                                 </div>
+                             </div>
+                             <div class="wrap-content">
+                                 <div class="h3 line2">Кратко&nbsp;о&nbsp;сути&nbsp;задачи:</div>
+                                 <div class="">
+                                  <div class="row">
+                                    <textarea name="fancy-textarea" id="fancy-textarea"></textarea>
+                                    <label for="fancy-textarea">Опишите детали задачи</label>
+                                  </div>
+                              </div>
+                           </div>
+                       </div>
+                       <div class="f-right">
+                          <div class="wrap-content">
+                                 <div class="h3 line3">Что&nbsp;мы&nbsp;можем&nbsp;Вам&nbsp;предложить:</div>
+                                    <div class="chceckboxes">
+                                        <ul class="clearfix">
+                                            <li>
+                                              <input type="checkbox" class="checkbox" id="checkbox-1" data-block="block-1" value="Сайт визитка" name="card[]">
+                                              <label for="checkbox-1">Сайт визитка</label>
+                                            </li>
+                                            <li>
+                                              <input type="checkbox" class="checkbox" id="checkbox-2" data-block="block-2" value="Лендинг" name="landing[]">
+                                              <label for="checkbox-2">Лендинг</label>
+                                            </li>
+                                            <li>
+                                              <input type="checkbox" class="checkbox" id="checkbox-3" data-block="block-3" value="Каталог/и-магазин" name="shop[]">
+                                              <label for="checkbox-3">Каталог / интернет-магазин</label>
+                                            </li>
+                                            <li>
+                                              <input type="checkbox" class="checkbox" id="checkbox-4" data-block="block-4" value="Хочу что-то уникальное" name="orig[]">
+                                              <label for="checkbox-4">Хочу что-то уникальное</label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="blocks">
+                                <div style="display: none;" class="block-1">
+                                    <div>
+                                        <input type="checkbox" id="radio-2" value="Уникальный стильный дизайн" checked="checked">
+                                        <label for="radio-2">Уникальный стильный дизайн</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" value="Адаптивный под мобильные устройства" id="checkbox-5" checked="checked">
+                                        <label for="checkbox-5">Адаптивный под мобильные устройства</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" value="Нужна фотосессия с обработкой фото" id="checkbox-6">
+                                        <label for="checkbox-6">Нужна фотосессия с обработкой фото</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" value="Фото/Видео галерея на сайте" id="checkbox-7">
+                                        <label for="checkbox-7">Фото/Видео галерея на сайте</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" value="Кнопка заявки или обратной связи" checked="checked" id="checkbox-8">
+                                        <label for="checkbox-8">Кнопка заявки или обратной связи</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" value="Всякие модные штуки/эффекты" id="checkbox-9">
+                                        <label for="checkbox-9">Всякие модные штуки / эффекты</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" value="Нужен логотип/фирменный стиль" id="checkbox-10">
+                                        <label for="checkbox-10">Нужен логотип / фирменный стиль</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" value="А также хочу его продвигать у вас" id="checkbox-11">
+                                        <label for="checkbox-11">А также хочу его продвигать у вас</label>
+                                    </div>
+                                </div>
+                                <div style="display: none;" class="block-2">
+                                    <div>
+                                        <input type="checkbox" id="radio-1" value="Уникальный стильный дизайн" checked="checked">
+                                        <label for="radio-1">Уникальный стильный дизайн</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox-12" value="Админ-панель" checked="checked" name="landing[]">
+                                        <label for="checkbox-12">Админ-панель</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox-13" value="Адаптивный под мобильные устройства" checked="checked" name="landing[]">
+                                        <label for="checkbox-13">Адаптивный под мобильные устройства</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox-14" value="Блок преимуществ" name="landing[]">
+                                        <label for="checkbox-14">Блок преимуществ</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox-15" value="Блок сертификатов" name="landing[]">
+                                        <label for="checkbox-15">Блок сертификатов</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox-16" value="Блок фото/видео галереи" checked="checked" name="landing[]">
+                                        <label for="checkbox-16">Блок фото/видео галереи</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox-17" value="Нужна фотосессия с обработкой" name="landing[]">
+                                        <label for="checkbox-17">Нужна фотосессия с обработкой</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox-18" value="Всякие модные штуки/эффекты" name="landing[]">
+                                        <label for="checkbox-18">Всякие модные штуки / эффекты</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox-19" value="Таймер обратного отсчета" name="landing[]">
+                                        <label for="checkbox-19">Таймер обратного отсчета</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox-20" value="Комментарии пользователей" name="landing[]">
+                                        <label for="checkbox-20">Комментарии пользователей</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox-21" value="E-mail маркетинг" name="landing[]">
+                                        <label for="checkbox-21">E-mail маркетинг</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox-22" value="А также хочу заказать его рекламу у вас" name="landing[]">
+                                        <label for="checkbox-22">А также хочу заказать его рекламу у вас</label>
+                                    </div>
+                                </div>
+                                <div style="display: none;" class="block-3">
+                                    <div>
+                                        <input type="checkbox" id="radio-3" value="Уникальный стильный дизайн" checked="checked">
+                                        <label for="radio-3">Уникальный стильный дизайн</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox-23" value="Адаптивный под мобильные устройства" checked="checked">
+                                        <label for="checkbox-23">Адаптивный под мобильные устройства</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox-24" value="Необходим логотип/фирменный стиль">
+                                        <label for="checkbox-24">Необходим логотип / фирменный стиль</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox-25" value="Должен быть личный кабинет" checked="checked">
+                                        <label for="checkbox-25">Должен быть личный кабинет</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox-26" value="Есть 1С - необходима связь номенклатуры">
+                                        <label for="checkbox-26">Есть 1С - необходима связь номенклатуры</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox-27" value="Буду наполнять вручную в админке" checked="checked">
+                                        <label for="checkbox-27">Буду наполнять вручную в админке</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox-28" value="Хочу загружать товары с Excel  или XML">
+                                        <label for="checkbox-28">Хочу загружать товары с Excel  или XML</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox-29" value="Нужна оплата на сайте (платежные системы)">
+                                        <label for="checkbox-29">Нужна оплата на сайте (платежные системы)</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox-30" value="Товаров будет больше чем 10000шт">
+                                        <label for="checkbox-30">Товаров будет больше чем 10000 шт</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox-31" value="Наличие зависит от поставщиков">
+                                        <label for="checkbox-31">Наличие зависит от поставщиков</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox-32" value="Есть готовое описания проекта">
+                                        <label for="checkbox-32">Есть готовое описания проекта (ТЗ)</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox-33" value="А также хочу заказать его рекламу у вас">
+                                        <label for="checkbox-33">А также хочу заказать его рекламу у вас</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox-34" value="Подумываю о мобильном приложении">
+                                        <label for="checkbox-34">Подумываю о мобильном приложении</label>
+                                    </div>
+                                </div>
+                                <div style="display: none;" class="block-4">
+                                    <div>
+                                        <input type="checkbox" id="checkbox-35" value="Пока не знаю, что именно, но есть желание($)">
+                                        <label for="checkbox-35">Пока не знаю, что именно, но есть желание($)</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox-36" value="Есть пример" class="text-field-cbx"><label for="checkbox-36">Есть пример (ниже домен сайта):</label><div class="check36_href"><input class="text-field-text" type="text" name="example-text" id="example-text"><label for="example-text">хочу такое же, но лучше</label></div></div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox-37" value="Позвоните мне, и я пришлю детальное описание проекта">
+                                        <label for="checkbox-37">Позвоните мне, и я пришлю детальное описание проекта</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox-38" value="А вообще подскажите, во что я могу вложиться">
+                                        <label for="checkbox-38">А вообще подскажите, во что я могу вложиться</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox-39" value="Просто свяжитесь со мной, лучше устно обсудим">
+                                        <label for="checkbox-39">Просто свяжитесь со мной, лучше устно обсудим</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox-40" value="Написал суть задачи кратно о сути задачи">
+                                        <label for="checkbox-40">Написал суть задачи (в блоке кратко о сути задачи)</label>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                          </div>
+                       </div>
+                       <input type="submit" class="submit clearfix effect2" id="send" value="Отправить заявку">
+                    </form>
+                </div> <!-- cd-panel-content -->
+            </div> <!-- cd-panel-container -->
+        </div>
+        <div class="main-page-content1">
+            <div id="home">
+                <div id="particles-js"></div>
+                <div class="home-content-main">
+                    <div class="table-cell">
+                        <div class="container">
+                            <div class="row home-row">
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="home-text wow Down text-center">
+                                        <h1 class="cd-headline clip is-full-width">
+                                            <span class="cd-words-wrapper">
+                                                <b class="is-hidden">Разработка</b>
+                                                <b class="is-hidden">Продвижение</b>
+                                                <b class="is-visible">Дизайн</b>
+                                            </span>
+                                        </h1>
+                                        <h3>Сайты которые работают за вас!</h3>
+                                        <div class="menubar text-center">
+                                            <ul class="menubar-grid flex2">
+                                                <div>
+                                                    <li>
+                                                        <a href="#home" class="active">Главная</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#about">О нас</a>
+                                                    </li>
+                                                </div>
+                                                <div>
+                                                    <li>
+                                                        <a href="#work">Портфолио</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#contact">Контакты</a>
+                                                    </li>
+                                                </div>
+                                            </ul><!-- end nav -->
+                                        </div>
+                                    </div><!-- end home-text  -->
+                                </div><!-- end col-md-8 -->
+                            </div><!-- end row  -->
+                        </div><!-- end container -->
+                    </div><!-- end table-cell -->
+                </div><!-- end home-content-main  -->
+            </div><!-- end home  -->
+        </div><!-- end main-page -->
+        
+         <!-- ================================ ABOUT =============================== -->
+
+            <div id="about" name="about">
+                <div class="about-content">
+                    <div class="me-grid">
+                        <div class="container">
+                            <div class="row">                                
+                                <div class="col-md-6 col-sm-6 col-xs-12 pos_flex">
+                                    <div class="main-title main-title1 wow ">
+                                        <h3 class="wow ">Преимущества работы с нами</h3>
+                                        <div class="underline1"></div>
+                                        <div class="underline2"></div>
+                                        <p class="text-2 wow" style="animation-duration: 1.5s;">Увиличение конверсии  2 раза!</p>
+                                    </div><!-- end about-details  -->
+                                </div><!-- end col-md-8  -->
+                            </div><!-- end row  -->
+                            <div class="row2">
+                                <div class="prim wow">
+                                    <img alt="" src="img/ico_1.png">
+                                    <h4>Уникальный дизайн</h4>
+                                    <p> Продуктивный дизайн во всех смыслах этого слова: красивый, практичный, продающий.</p>
+                                </div>
+                                <div class="prim wow" style="animation-duration: 1.2s;">
+                                    <img alt="" src="img/ico_2.png">
+                                    <h4>Адаптивная вёрстка</h4>
+                                    <p>Полная оптимизация вашего сайта под все виды устройств: Android - телефоны и планшеты;  Apple - iPhone, iPad, iPod, iMac.</p>
+                                </div>
+                                <div class="prim wow" style="animation-duration: 1.4s;">
+                                    <img alt="" src="img/ico_3.png">
+                                    <h4>Удобная система управления</h4>
+                                    <p>Возможность быстро, а главное легко изменять внешний вид сайта, добавлять/удалять блоки, изменять информацию.</p>
+                                </div>
+                                <div class="prim wow" style="animation-duration: 1.6s;">
+                                    <img alt="" src="img/Prodvigenie-1.png">
+                                    <h4>Эффективное продвижение</h4>
+                                    <p>Быстрое поднятие вашего сайта в TOP поисковых систем, за счёт написания качественных SEO текстов, и распределения их по сайту.</p>
+                                </div>
+                            </div>
+                        </div><!-- end container  -->
+                    </div><!-- end me-grid  -->
+                    <div class="work-counter text-center">
+                        <div id="counter">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="main-title white-title text-center">
+                                            <h3 class="wow">Этапы создания вашего сайта</h3>
+                                            <div class="underline1 white"></div>
+                                            <div class="underline2 white"></div>
+                                            <p class="wow" style="animation-duration: 1.5s">Создадим сайт который будет рабатать за вас!</p>
+                                        </div><!-- end work-title  -->
+                                    </div><!-- end col-md-12  -->
+                                </div><!-- end row  -->
+                                <div class="row main-row">
+                                    <div class="col-md-3 col-sm-6 wow">
+                                        <div class="work-statistics text-center">
+                                            <i class="fa fa-star stat-icon" aria-hidden="true"><img alt="" src="img/ico_8.png" width="30px"></i>
+                                            <p>Формирование идеи</p>
+                                            <!-- <div class=""><h3 class=""></div> -->
+                                        </div><!-- end work-statistics  -->
+                                    </div><!-- end col-md-3  -->
+                                    <div class="col-md-3 col-sm-6 wow"  style="animation-duration: 1.2s">
+                                        <div class="work-statistics text-center">
+                                            <i class="fa fa-crop stat-icon" aria-hidden="true"><img alt="" src="img/ico_5.png" width="30px"></i>
+                                            <p>Создание дизайна</p>
+                                            <!-- <div class=""><h3 class=""></div> -->
+                                        </div><!-- end work-statistics  -->
+                                    </div><!-- end col-md-3  -->
+                                    <div class="col-md-3 col-sm-6 wow"  style="animation-duration: 1.4s">
+                                        <div class="work-statistics text-center">
+                                            <i class="fa fa-bolt stat-icon" aria-hidden="true"><img alt="" src="img/ico_6.png" width="40px" style="filter: invert(1);"></i>
+                                            <p>Программирование</p>
+                                            <!-- <div class=""><h3 class=""></div> -->
+                                        </div><!-- end work-statistics  -->
+                                    </div><!-- end col-md-3  -->
+                                    <div class="col-md-3 col-sm-6 wow"  style="animation-duration: 1.6s">
+                                        <div class="work-statistics text-center">
+                                            <i class="fa fa-coffee stat-icon" aria-hidden="true"><img alt="" src="img/Prodvigenie-2.png" width="50px" style="filter: invert(1);"></i>
+                                            <p>Продвижение</p>
+                                            <!-- <div class=""><h3 class=""></div> -->
+                                        </div><!-- end work-statistics  -->
+                                    </div><!-- end col-md-3  -->
+                                </div><!-- end row  -->
+                            </div><!-- end container-fluid  -->
+                        </div><!-- end counter  -->
+                    </div><!-- end work-counter  -->
+                </div><!-- end about-content  -->
+            </div><!-- end about  -->
+
+                        <!-- ================================ WORK =============================== -->
+
+            <div id="work">
+                <div class="work-content" name="work">
+                    <div class="work-grid">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="main-title text-center">
+                                        <h3 class="wow">Наше портфолио</h3>
+                                        <div class="underline1"></div>
+                                        <div class="underline2"></div>
+                                        <p class="wow" style="animation-duration: 1.5s">Лучшие дизайнерские решения!</p>
+                                    </div><!-- end work-title  -->
+                                </div><!-- end col-md-12  -->
+                            </div><!-- end row  -->
+                        </div><!-- end container  -->
+                        <div class="work-details about-col">
+                            <div class="container">
+                                <!-- <ul id="filters" class="clearfix">
+                                    <li><span class="filter active" data-filter=".web, .corp, .development, .sayt-portf">Все</span></li>
+                                    <li><span class="filter" data-filter=".web">Landing</span></li>
+                                    <li><span class="filter" data-filter=".corp">Многостраничные сайты</span></li>
+                                    <li><span class="filter" data-filter=".development">Интернет-магазин</span></li>
+                                    <li><span class="filter" data-filter=".sayt-portf">Сайт-портфолио</span></li>
+                                </ul> -->
+                                <div id="portfoliolist">
+                                    <div class="portfolio development" data-cat="development">
+                                        <div class="portfolio-wrapper wow" data-wow-delay=".6s"> 
+                                            <div class="overlay3 text-center">
+                                                <div class="port-over"></div>
+                                                <div class="overlay-main">
+                                                    <div class="table-cell">
+                                                        <h3>MARMELAD LOUNGE</h3>
+                                                        <!-- <a class="fancybox" target="frame1" href="img/portfolios/development/NovoMobi.jpg" title=""><i class="fa fa-search work-icon" aria-hidden="true">Сайт в разработке<br>Посмотреть полное изображение</i></a> -->
+                                                    </div><!-- end table-cell  -->
+                                                </div><!-- end overlay-main  -->
+                                            </div><!-- end overlay  -->
+                                            <img src="img/portfolios/Hairsalon.jpg" alt="" />
+                                        </div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-development  -->
+                                	<div class="portfolio web" data-cat="web">
+                                        <div class="portfolio-wrapper wow" data-wow-delay=".4s"> 
+                                            <div class="overlay2 text-center">
+                                                <div class="port-over"></div>
+                                                <div class="overlay-main">
+                                                    <div class="table-cell">
+                                                        <h3>АтомРемонт</h3>
+                                                        <!-- <a class="fancybox" target="frame1" href="https://estateagency.kh.ua" title=""><i class="fa fa-search work-icon" aria-hidden="true">Перейти на сайт</i></a> -->
+                                                    </div><!-- end table-cell  -->
+                                                </div><!-- end overlay-main  -->
+                                            </div><!-- end overlay  -->
+                                            <img src="img/portfolios/atomremont.jpg" alt="" />
+                                        </div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-web  -->          
+                                    <div class="portfolio web" data-cat="web">
+                                        <div class="portfolio-wrapper wow" data-wow-delay=".4s"> 
+                                            <div class="overlay text-center">
+                                                <div class="port-over"></div>
+                                                <div class="overlay-main">
+                                                    <div class="table-cell">
+                                                        <h3>EstateAgency</h3>
+                                                        <!-- <a class="fancybox" target="frame1" href="https://estateagency.kh.ua" title=""><i class="fa fa-search work-icon" aria-hidden="true">Перейти на сайт</i></a> -->
+                                                    </div><!-- end table-cell  -->
+                                                </div><!-- end overlay-main  -->
+                                            </div><!-- end overlay  -->
+                                            <img src="img/portfolios/web/EstateAgency.jpg" alt="" />
+                                        </div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-web  -->
+                                    <div class="portfolio web" data-cat="web">
+                                        <div class="portfolio-wrapper wow" data-wow-delay=".4s"> 
+                                            <div class="overlay2 text-center">
+                                                <div class="port-over"></div>
+                                                <div class="overlay-main">
+                                                    <div class="table-cell">
+                                                        <h3>FixTeh</h3>
+                                                        <!-- <a class="fancybox" target="frame1" href="http://fixteh.web-zone.kh.ua/" title=""><i class="fa fa-search work-icon" aria-hidden="true">Перейти на сайт</i></a> -->
+                                                    </div><!-- end table-cell  -->
+                                                </div><!-- end overlay-main  -->
+                                            </div><!-- end overlay  -->
+                                            <img alt="" src="img/portfolios/web/fixteh.jpg" />
+                                        </div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-web  -->
+                                    <div class="portfolio sayt-portf" data-cat="sayt-portf">
+                                        <div class="portfolio-wrapper wow" data-wow-delay=".2s"> 
+                                            <div class="overlay text-center">
+                                                <div class="port-over"></div>
+                                                <div class="overlay-main">
+                                                    <div class="table-cell">
+                                                        <h3>Тату&nbspстудия araigumatattoo</h3>
+                                                        <!-- <a class="fancybox" target="frame1" href="https://www.araigumatattoo.com/index.html" title=""><i class="fa fa-search work-icon" aria-hidden="true">Перейти на сайт</i></a> -->
+                                                    </div><!-- end table-cell  -->
+                                                </div><!-- end overlay-main  -->
+                                            </div><!-- end overlay  -->
+                                            <img alt="" src="img/portfolios/sayt-portf/tattoo2_preview.jpg" />
+                                        </div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-corp  -->
+                                    <div class="portfolio corp" data-cat="corp">
+                                        <div class="portfolio-wrapper wow" data-wow-delay=".2s"> 
+                                            <div class="overlay2 text-center">
+                                                <div class="port-over"></div>
+                                                <div class="overlay-main">
+                                                    <div class="table-cell">
+                                                        <h3>Первый&nbspжилищный портал</h3>
+                                                        <!-- <a class="fancybox" target="frame1" href="http://test.araigumatattoo.com/" title=""><i class="fa fa-search work-icon" aria-hidden="true">Смотреть beta версию сайта</i></a> -->
+                                                    </div><!-- end table-cell  -->
+                                                </div><!-- end overlay-main  -->
+                                            </div><!-- end overlay  -->
+                                            <img src="img/portfolios/corp/nedvig.jpg" alt="" />
+                                        </div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-corp  -->
+                                    <div class="portfolio web" data-cat="web">
+                                        <div class="portfolio-wrapper wow" data-wow-delay=".4s"> 
+                                            <div class="overlay text-center">
+                                                <div class="port-over"></div>
+                                                <div class="overlay-main">
+                                                    <div class="table-cell">
+                                                        <h3>EstateAgency2</h3>
+                                                        <!-- <a class="fancybox" target="frame1" href="https://estateagency.kh.ua" title=""><i class="fa fa-search work-icon" aria-hidden="true">Перейти на сайт</i></a> -->
+                                                    </div><!-- end table-cell  -->
+                                                </div><!-- end overlay-main  -->
+                                            </div><!-- end overlay  -->
+                                            <img src="img/portfolios/web/EstateAgency2.jpg" alt="" />
+                                        </div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-web  -->
+                                    <div class="portfolio development" data-cat="development">
+                                        <div class="portfolio-wrapper wow" data-wow-delay=".6s"> 
+                                            <div class="overlay3 text-center">
+                                                <div class="port-over"></div>
+                                                <div class="overlay-main">
+                                                    <div class="table-cell">
+                                                        <h3>HairSalon</h3>
+                                                        <!-- <a class="fancybox" target="frame1" href="img/portfolios/development/NovoMobi.jpg" title=""><i class="fa fa-search work-icon" aria-hidden="true">Сайт в разработке<br>Посмотреть полное изображение</i></a> -->
+                                                    </div><!-- end table-cell  -->
+                                                </div><!-- end overlay-main  -->
+                                            </div><!-- end overlay  -->
+                                            <img src="img/portfolios/Hairsalon.jpg" alt="" />
+                                        </div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-development  -->
+                                    <div class="portfolio sayt-portf" data-cat="sayt-portf">
+                                        <div class="portfolio-wrapper wow" data-wow-delay=".2s"> 
+                                            <div class="overlay text-center">
+                                                <div class="port-over"></div>
+                                                <div class="overlay-main">
+                                                    <div class="table-cell">
+                                                        <h3>BlackHair</h3>
+                                                        <!-- <a class="fancybox" target="frame1" href="img/portfolios/sayt-portf/tattoo.jpg" title=""><i class="fa fa-search work-icon" aria-hidden="true">Сайт более не существует<br>Посмотреть полное изображение</i></a> -->
+                                                    </div><!-- end table-cell  -->
+                                                </div><!-- end overlay-main  -->
+                                            </div><!-- end overlay  -->
+                                            <img alt="" src="img/portfolios/blackhair.jpg" />
+                                        </div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-corp  -->                 
+                                    <div class="portfolio corp" data-cat="corp">
+                                        <div class="portfolio-wrapper wow" data-wow-delay=".2s"> 
+                                            <div class="overlay3 text-center">
+                                                <div class="port-over"></div>
+                                                <div class="overlay-main">
+                                                    <div class="table-cell">
+                                                        <h3>Сайт&nbspпортфолио</h3>
+                                                        <!-- <a class="fancybox" target="frame1" href="img/portfolios/corp/corp.png" title=""><i class="fa fa-search work-icon" aria-hidden="true">Сайт в разработке<br>Посмотреть полное изображение</i></a> -->
+                                                    </div><!-- end table-cell  -->
+                                                </div><!-- end overlay-main  -->
+                                            </div><!-- end overlay  -->
+                                            <img src="img/portfolios/tattoo3.jpg" alt="" />
+                                        </div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-corp  -->
+                                    <div class="portfolio corp" data-cat="corp">
+                                        <div class="portfolio-wrapper wow" data-wow-delay=".2s"> 
+                                            <div class="overlay text-center">
+                                                <div class="port-over"></div>
+                                                <div class="overlay-main">
+                                                    <div class="table-cell">
+                                                        <h3>tFolior</h3>
+                                                        <!-- <a class="fancybox" target="frame1" href="img/portfolios/corp/Bar.jpg" title=""><i class="fa fa-search work-icon" aria-hidden="true">Сайт в разработке<br>Посмотреть полное изображение</i></a> -->
+                                                    </div><!-- end table-cell  -->
+                                                </div><!-- end overlay-main  -->
+                                            </div><!-- end overlay  -->
+                                            <img src="img/portfolios/tfolio.jpg" alt="" />
+                                        </div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-corp  -->
+                                </div><!-- end portfoliolist  -->
+                                <div class="flex2"><button class="see-work">Посмотреть всё<span class="anim-arrow">&#8595;</span></button></div>
+                            </div><!-- container -->
+                        </div><!-- end work-details  -->
+                    </div><!-- end work-grid  -->
+                </div><!-- end work-content  -->
+            </div><!-- end work  --> 
+
+            <!-- ================================ CONTACT =============================== -->
+
+        <div id="contact" name="contact" >
+            <div class="container">
+                <div class="contact">
+                    <div class="phone wow">
+                        <div class="img-top"><img alt="" src="img/Phone.png" width="50px"></div>
+                        <h3>Телефон</h3>
+                        <div class="underline1"></div>
+                        <div class="underline2"></div>
+                        <!-- <p>+38098 791 7798</p> -->
+                        <p>+38 (063) 581 4785</p>
+                    </div>
+                    <div class="button wow" style="animation-duration: 1.2s">
+                        <p class="button_text">Команда специалистов сделает для вас сайт, который будет приносить доход. Не жди закажи сайт прямо сейчас!</p>
+                        <button onclick="form_add()">
+                            Заказать сайт
+                        </button>
+                    </div>
+                    <div class="email wow" style="animation-duration: 1.4s">
+                        <div class="img-top"><img alt="" src="img/email.png" width="50px"></div>
+                        <h3>E-Mail Адрес</h3>
+                        <div class="underline1"></div>
+                        <div class="underline2"></div>
+                        <p>lex.webzone@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- ================================ FOOTER =============================== -->
+
+        <footer>
+            <p>Web-Zone © 2017 , Все права защищены.</p>
+        </footer>
+        <!-- ================================ JQUERY =============================== -->
+
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/main.js" type="text/javascript"></script>
+        <script src="js/particles1.js" type="text/javascript"></script>
+        <script src="js/app.js" type="text/javascript"></script>
+        <script src="js/animation.js"></script>
+        <script src="js/jquery-viewport-checker.js" type="text/javascript"></script>
+    </body><!-- end body -->
+</html><!-- end html -->
